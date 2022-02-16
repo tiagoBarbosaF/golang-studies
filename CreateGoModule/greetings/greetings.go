@@ -12,12 +12,15 @@ func Hello(name string) (string, error) {
 	if name == "" {
 		return "", errors.New("empty name")
 	}
-	
+
 	message := fmt.Sprintf(randomFormat(), name)
+
+	// force test error
+	//message := fmt.Sprint(randomFormat())
 	return message, nil
 }
 
-func Hellos(names []string) (map[string]string, error){
+func Hellos(names []string) (map[string]string, error) {
 	messages := make(map[string]string)
 
 	for _, name := range names {
@@ -33,7 +36,7 @@ func Hellos(names []string) (map[string]string, error){
 	return messages, nil
 }
 
-func init(){
+func init() {
 	rand.Seed(time.Now().UnixNano())
 }
 
