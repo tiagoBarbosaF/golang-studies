@@ -17,3 +17,7 @@
 ## RESTful API with Gin
 
 1. Basic of writing a RESTful web service API with Gin web framework
+
+## Generics intro with Golang
+
+With generics, you can declare and use functions or types thar are written to work with any of a set of types provided by calling code.
