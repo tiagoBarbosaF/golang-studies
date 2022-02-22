@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/gopher.png" width="200">
+<img src="assets/gopher.png" width="200" alt="Gopher">
 </p>
 
 # Golang studies 
