@@ -21,3 +21,7 @@
 ## Generics intro with Golang
 
 With generics, you can declare and use functions or types thar are written to work with any of a set of types provided by calling code.
+
+## Started with fuzzing 
+
+Introduction of the basics of fuzzing in Go.
